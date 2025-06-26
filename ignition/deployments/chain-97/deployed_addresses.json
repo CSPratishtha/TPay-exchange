@@ -1,0 +1,6 @@
+{
+  "TpaySystemModule#TpayFactory": "0xb5D5dAadfCAC90347c62165d513287555c7c4572",
+  "TpaySystemModule#TpayToken": "0x1053953028B1B9f982656e85885d49387958F77F",
+  "TpaySystemModule#TpayFarm": "0x76A58EDA49ac9f0dC824128255dE51A83AA00A00",
+  "TpaySystemModule#TpayRouter": "0xe237f789DDA24bAAE2E176fbEBC1Ca8c3b2cAb08"
+}

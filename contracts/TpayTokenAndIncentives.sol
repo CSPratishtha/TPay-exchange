@@ -10,9 +10,9 @@ contract TpayToken is ERC20, Ownable {
     mapping(address => uint256) public vestedAmount;
     mapping(address => uint256) public vestingEnd;
 
-    constructor(address initialOwner, address teamWallet, address marketingWallet)
+    constructor(address teamWallet, address marketingWallet)
         ERC20("Tpay Token", "TPAY")
-        Ownable(initialOwner)
+        Ownable(msg.sender)
     {
         _mint(address(this), MAX_SUPPLY);
 

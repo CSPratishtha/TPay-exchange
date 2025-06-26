@@ -29,11 +29,11 @@ contract TpayFarm is Ownable {
     mapping(uint256 => mapping(address => UserInfo)) public userInfo;
 
     constructor(
-        address initialOwner,
+       
         address _tpay,
         uint256 _tpayPerBlock,
         uint256 _startBlock
-    ) Ownable(initialOwner) {
+    ) Ownable(msg.sender) {
         tpay = TpayToken(_tpay);
         tpayPerBlock = _tpayPerBlock;
         startBlock = _startBlock;
